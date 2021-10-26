@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <form name="calcform" action="" method="post">
+                <div class="box">
+                    <input type="text" name="screen" id="display" disabled="" value="">
+                </div>
+                <div class="box">
+                    <div id="line1" class="line">
+                        <input type="button" name="num9" value="9" class="num button" id="9" onclick="verific(this.id)">
+                        <input type="button" name="num8" value="8" class="num button" id="8" onclick="verific(this.id)">
+                        <input type="button" name="num7" value="7" class="num button" id="7" onclick="verific(this.id)">
+                        <input type="button" name="sum" value="+" class="operators button" id="+" onclick="verificsinal(this.id)">
+                    </div>
+                    <div id="line2" class="line">
+                        <input type="button" name="num6" value="6" class="num button" id="6" onclick="verific(this.id)">
+                        <input type="button" name="num5" value="5" class="num button" id="5" onclick="verific(this.id)">
+                        <input type="button" name="num4" value="4" class="num button" id="4" onclick="verific(this.id)">
+                        <input type="button" name="subtraction" value="-" class="operators button" id="-" onclick="verificsinal(this.id)">
+                    </div>
+                    <div id="line3" class="line">
+                        <input type="button" name="num3" value="3" class="num button" id="3" onclick="verific(this.id)">
+                        <input type="button" name="num2" value="2" class="num button" id="2" onclick="verific(this.id)">
+                        <input type="button" name="num1" value="1" class="num button" id="1" onclick="verific(this.id)">
+                        <input type="button" name="multiplication" value="*" class="operators button" id="*" onclick="verificsinal(this.id)">
+                    </div>
+                    <div id="line4" class="line">
+                        <input type="button" name="num0" value="0" class="num button" id="0" onclick="verific(this.id)">
+                        <input type="button" name="equal" value="=" id="equality" class="operators button" onclick="result()">
+                        <input type="button" name="delete" value="AC" class="operators button" onclick="clean()">
+                        <input type="button" name="division" value="/" class="operators button" id="/" onclick="verificsinal(this.id)">
+                    </div>
+                </div>
+        </form>
+    </main>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
