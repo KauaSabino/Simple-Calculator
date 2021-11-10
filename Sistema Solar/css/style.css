@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    user-select: none;
+}
+body{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    zoom: 0.048;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center fixed;
+    background-image: url(./img/Universe.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+img{
+    image-rendering: pixelated;
+}
+#star{
+    width: 800px;
+    height: 800px;
+}
+#orbit_mercury{
+    width: 800px;
+    height: 800px;
+}
+#orbit_venus{
+    display: flex;
+    justify-content: flex-end;
+    width: 1200px;
+    height: 1200px;
+}
+#orbit_earth{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    width: 1550px;
+    height: 1550px;
+}
+#orbit_moon{
+    width: 100px;
+    height: 100px;
+}
+#orbit_mars{
+    display: flex;
+    justify-content: flex-end;
+    width: 1800px;
+    height: 1800px;
+}
+#orbit_asteroid{
+    width: 3900px;
+    height: 3900px;
+}
+#orbit_jupiter{
+    display: flex;
+    justify-content: flex-end;
+    width: 4800px;
+    height: 4800px;
+}
+#orbit_saturn{
+    width: 6800px;
+    height: 6800px;
+}
+#orbit_uranus{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 9700px;
+    height: 9700px;
+}
+#orbit_neptune{
+    width: 13717px;
+    height: 13717px;
+}
+
+
+
+#sun{
+    width: 800px;
+    height: 800px;
+}
+#mercury{
+    width: 40px;
+    height: 40px;
+}
+#venus{
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+}
+#earth{
+    position: relative;
+    width: 126px;
+    height: 126px;
+}
+#moon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+#mars{
+    width: 68px;
+    height: 68px;
+}
+#asteroid{
+    width: 3900px;
+    height: 3900px;
+}
+#jupiter{
+    width: 714px;
+    height: 714px;
+}
+#saturn{
+    height: 602px;
+}
+#uranus{
+    width: 511px;
+    height: 511px;
+}
+#neptune{
+    width: 495px;
+    height: 495px;
+}
+
+
